@@ -1,5 +1,6 @@
-$baseGreen: #39B39D;
-$accentGreen: #28D1B2;
+//$baseThemeColor: #39B39D;
+$baseThemeColor: #1C3665;
+$accentThemeCOlor: #0a2B65;
 $feedOrange: #FF6600;
 $twitterBlue: #00B0ED;
 $facebookBlue: #3B5999;
@@ -64,11 +65,11 @@ a {
 }
 
 .uk-nav-side > li.uk-active > a {
-    background: $accentGreen;
+    background: $accentThemeCOlor;
 }
 
 .uk-pagination>.uk-active>span {
-    background: $accentGreen;
+    background: $accentThemeCOlor;
 }
 
 .uk-icon-medium {
@@ -117,7 +118,7 @@ a {
 .mg-header {
     padding: 1em 0;
     // Green style
-    background-color: $baseGreen;
+    background-color: $baseThemeColor;
 }
 
 .mg-brand {
